@@ -1,0 +1,33 @@
+@import "../../css/variables.css";
+
+.button {
+    border-radius: 40px;
+    border: none;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+}
+
+.btn-link {
+    background-color: var(--action-color);
+}
+
+.btn-icon {
+    background-color: var(--action-color);
+}
+
+.btn-fab{
+    background-color: var(--action-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

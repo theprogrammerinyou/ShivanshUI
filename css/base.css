@@ -1,6 +1,7 @@
 @import "./utilities.css";
 @import "./spacing.css";
 @import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 *,
 *::before,
@@ -8,4 +9,5 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
 }
