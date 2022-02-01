@@ -1,0 +1,29 @@
+.xs {
+    width: 8px;
+    height: 8px;
+}
+
+.sm {
+    width: 16px;
+    height: 16px;
+}
+
+.md {
+    width: 24px;
+    height: 24px;
+}
+
+.lg {
+    width: 32px;
+    height: 32px;
+}
+
+.xl {
+    width: 40px;
+    height: 40px;
+}
+
+.xxl {
+    width: 64px;
+    height: 64px;
+}
