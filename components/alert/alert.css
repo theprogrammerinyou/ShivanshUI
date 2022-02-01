@@ -1,0 +1,29 @@
+@import "../../css/variables.css";
+
+.alert {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-weight: var(--bold-weight);
+}
+
+.alert-error {
+    background-color: var(--primary-color);
+}
+
+.alert-success {
+    background-color: #00FF00;
+}
+
+.alert-primary {
+    background-color: #961ee1;
+}
+
+.alert-warning {
+    background-color: #d3e916;
+}
