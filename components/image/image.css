@@ -1,0 +1,19 @@
+.img-container{
+    padding: 1rem;
+}
+
+.img-resp {
+    width: 100%;
+    height: auto;
+}
+
+.img-round {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.img-container {
+    max-width: 50%;
+    width: 40rem;
+}
