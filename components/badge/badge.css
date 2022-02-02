@@ -1,0 +1,27 @@
+.profile-badge, .icon-badge {
+    margin: 3rem;
+    position: relative;
+}
+
+.img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+}
+
+.icon-img {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+}
+
+.number {
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 0.2rem;
+}

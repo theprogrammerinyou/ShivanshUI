@@ -1,4 +1,18 @@
 .flex {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.basic-margin-padding {
+    margin: 1rem;
+    padding: 1rem;
 }
