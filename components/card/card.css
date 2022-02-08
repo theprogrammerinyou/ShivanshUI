@@ -1,0 +1,94 @@
+@import "../../css/variables.css";
+
+main {
+    margin: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.card {
+    border:none;
+    position: relative;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(29, 25, 25);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(0,0,0, 0.5);
+}
+
+.cross-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+.button{
+    color: var(--btn-color);
+    background-color: rgb(29, 24, 24);
+    border: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(80, 74, 74, 0.5);
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.badge::after {
+    content: "50% OFF";
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+}
+
+.content {
+    padding: 1rem;
+    position: absolute;
+}
+
+.overlay-btn {
+    background-color: transparent;
+}
+
+.overlay-btn:hover {
+    background-color: transparent;
+}
+
+.horizontal-content {
+    position: relative;
+}
+
+.horizontal-card{
+    width: max-content;
+}
+
+/* to be added in future */
+/* .tooltip {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    background: rgb(29, 24, 24);
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.hide {
+    display: none;
+} */
