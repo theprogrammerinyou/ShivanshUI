@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="alert.css" rel="stylesheet" />
     <link href="../../css/base.css" rel="stylesheet" />
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <h1>Alert</h1>
-        <div class="flex">
-            <div class="alert alert-primary">
-                Primary Alert
-            </div>
-            <div class="alert alert-error">
-                Error Alert
-            </div>
-            <div class="alert alert-success">
-                Success Alert
-            </div>
-            <div class="alert alert-warning">
-                Warning Alert
-            </div>
+      <nav>
+        <div class="navbar">
+          <div id="left-nav">
+            <a href="../../../dashboard.html">
+              <img src="../img/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div id="right-nav">
+            <ul class="navbar">
+              <li>
+                <a href="../dashboard.html">
+                  <i id="fas fa-home"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li class="dropdown">
+                <button class="dropdown-btn">Components</button>
+                <div class="dropdown-components">
+                  <a href="/components/alert/alert.html">Alert</a>
+                  <a href="/components/avatar/avatar.html">Avatar</a>
+                  <a href="/components/badge/badge.html">Badge</a>
+                  <a href="/components/button/button.html">Button</a>
+                  <a href="/components/card/card.html">Card</a>
+                  <a href="/components/image/image.html">Image</a>
+                  <a href="/components/input/input.html">Input</a>
+                  <a href="/components/alert/alert.html">Text Utilities</a>
+                  <a href="/components/alert/alert.html">List</a>
+                  <a href="/components/alert/alert.html">Navbar</a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
     </main>
-</body>
-
+    <section>
+      <h1>Alert</h1>
+      <div class="flex">
+        <div class="alert alert-primary">Primary Alert</div>
+        <div class="alert alert-error">Error Alert</div>
+        <div class="alert alert-success">Success Alert</div>
+        <div class="alert alert-warning">Warning Alert</div>
+      </div>
+    </section>
+  </body>
 </html>

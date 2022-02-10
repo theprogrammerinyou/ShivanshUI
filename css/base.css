@@ -1,13 +1,14 @@
-@import "./spacing.css";
-@import "./variables.css";
-@import "./utilities.css";
+@import './spacing.css';
+@import './variables.css';
+@import './utilities.css';
+@import '../docs/docs.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto Mono', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', sans-serif;
 }

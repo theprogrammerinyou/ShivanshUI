@@ -1,14 +1,24 @@
 .flex {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .basic-margin-padding {
-    margin: 1rem;
-    padding: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul > li {
+  list-style-type: none;
+  margin: 1rem 5rem;
 }

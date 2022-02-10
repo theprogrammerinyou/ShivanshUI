@@ -1,123 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card</title>
-    <link rel="stylesheet" href="card.css">
-    <link rel="stylesheet" href="../../css/base.css">
-</head>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+  </head>
 
-<body>
+  <body>
     <main>
-        <div class="card-container">
-            <h1>Card with Basic Text</h1>
-            <div class="flex">
-                <div class="card basic-margin-padding flex-col">
-                    <div class="card-content flex-col">
-                        <p>Word of the Day</p>
-                        <h2>be.nev.o.lent</h2>
-                        <p>adjective</p>
-                        <p>well meaning and kindly.
-                            "a benevolent smile"</p>
-                    </div>
-                    <div class="card-actions">
-                        <button class="button">Learn More</button>
-                    </div>
+      <nav>
+        <div class="navbar">
+          <div id="left-nav">
+            <a href="../dashboard.html">
+              <img src="../img/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div id="right-nav">
+            <ul class="navbar">
+              <li>
+                <a href="../../../dashboard.html">
+                  <i id="fas fa-home"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li class="dropdown">
+                <button class="dropdown-btn">Components</button>
+                <div class="dropdown-components">
+                  <a href="/components/alert/alert.html">Alert</a>
+                  <a href="/components/avatar/avatar.html">Avatar</a>
+                  <a href="/components/badge/badge.html">Badge</a>
+                  <a href="/components/button/button.html">Button</a>
+                  <a href="/components/card/card.html">Card</a>
+                  <a href="/components/image/image.html">Image</a>
+                  <a href="/components/input/input.html">Input</a>
+                  <a href="/components/alert/alert.html">Text Utilities</a>
+                  <a href="/components/alert/alert.html">List</a>
+                  <a href="/components/alert/alert.html">Navbar</a>
                 </div>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <div class="card-container">
-            <h1>Card with Dismiss</h1>
-            <div class="flex">
-                <div class="card dismiss-card basic-margin-padding flex-col">
-                    <figure class="figure">
-                        <!-- <div class="tooltip ">Dismiss</div> -->
-                        <img class="cross-img" width="20" height="20" src="/assets/times-solid.svg" />
-                    </figure>
-                    <div class="card-content flex-col">
-                        <p>Word of the Day</p>
-                        <h2>be.nev.o.lent</h2>
-                        <p>adjective</p>
-                        <p>well meaning and kindly.
-                            "a benevolent smile"</p>
-                    </div>
-                    <div class="card-actions">
-                        <button class="button">Learn More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-container">
-            <h1>Card with Badges</h1>
-            <div class="flex">
-                <div class="card basic-margin-padding flex-col">
-                    <div class="badge"></div>
-                    <div class="card-content flex-col">
-                        <p>Word of the Day</p>
-                        <h2>be.nev.o.lent</h2>
-                        <p>adjective</p>
-                        <p>well meaning and kindly.
-                            "a benevolent smile"</p>
-                    </div>
-                    <div class="card-actions-dismiss">
-                        <button class="button dismiss-button">Learn More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-container">
-            <h1>Card with Text Overlay</h1>
-            <div class="flex">
-                <div class="card basic-margin-padding flex-col">
-                    <img  height="210" width="250"
-                        src="https://images.unsplash.com/photo-1644308251427-cd809dc65e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D"
-                        />
-                    <div class="content">
-                        <div class="card-content flex-col">
-                            <p>Word of the Day</p>
-                            <h2>be.nev.o.lent</h2>
-                            <p>adjective</p>
-                            <p>well meaning and kindly.
-                                "a benevolent smile"</p>
-                        </div>
-                        <div class="card-actions">
-                            <button class="button overlay-btn">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-container">
-            <h1>Card with Horizontal Text</h1>
-            <div class="flex">
-                <div class="card horizontal-card basic-margin-padding flex">
-                    <img height="210" width="250"
-                        src="https://images.unsplash.com/photo-1644308251427-cd809dc65e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D" />
-                    <div class="content horizontal-content">
-                        <div class="card-content flex-col">
-                            <p>Word of the Day</p>
-                            <h2>be.nev.o.lent</h2>
-                            <p>adjective</p>
-                            <p>well meaning and kindly.
-                                "a benevolent smile"</p>
-                        </div>
-                        <div class="card-actions">
-                            <button class="button overlay-btn">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </nav>
     </main>
-    <script src="https://kit.fontawesome.com/a2605d1bec.js" crossorigin="anonymous"></script>
-    <script src="card.js"></script>
-</body>
+    <section>
+      <div class="card-container">
+        <h1>Card with Basic Text</h1>
+        <div class="flex">
+          <div class="card basic-margin-padding flex-col">
+            <div class="card-content flex-col">
+              <p>Word of the Day</p>
+              <h2>be.nev.o.lent</h2>
+              <p>adjective</p>
+              <p>well meaning and kindly. "a benevolent smile"</p>
+            </div>
+            <div class="card-actions">
+              <button class="button">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="card-container">
+        <h1>Card with Dismiss</h1>
+        <div class="flex">
+          <div class="card dismiss-card basic-margin-padding flex-col">
+            <figure class="figure">
+              <!-- <div class="tooltip ">Dismiss</div> -->
+              <img
+                class="cross-img"
+                width="20"
+                height="20"
+                src="/assets/times-solid.svg"
+              />
+            </figure>
+            <div class="card-content flex-col">
+              <p>Word of the Day</p>
+              <h2>be.nev.o.lent</h2>
+              <p>adjective</p>
+              <p>well meaning and kindly. "a benevolent smile"</p>
+            </div>
+            <div class="card-actions">
+              <button class="button">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <h1>Card with Badges</h1>
+        <div class="flex">
+          <div class="card basic-margin-padding flex-col">
+            <div class="badge"></div>
+            <div class="card-content flex-col">
+              <p>Word of the Day</p>
+              <h2>be.nev.o.lent</h2>
+              <p>adjective</p>
+              <p>well meaning and kindly. "a benevolent smile"</p>
+            </div>
+            <div class="card-actions-dismiss">
+              <button class="button dismiss-button">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <h1>Card with Text Overlay</h1>
+        <div class="flex">
+          <div class="card basic-margin-padding flex-col">
+            <img
+              height="210"
+              width="250"
+              src="https://images.unsplash.com/photo-1644308251427-cd809dc65e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D"
+            />
+            <div class="content">
+              <div class="card-content flex-col">
+                <p>Word of the Day</p>
+                <h2>be.nev.o.lent</h2>
+                <p>adjective</p>
+                <p>well meaning and kindly. "a benevolent smile"</p>
+              </div>
+              <div class="card-actions">
+                <button class="button overlay-btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <h1>Card with Horizontal Text</h1>
+        <div class="flex">
+          <div class="card horizontal-card basic-margin-padding flex">
+            <img
+              height="210"
+              width="250"
+              src="https://images.unsplash.com/photo-1644308251427-cd809dc65e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D"
+            />
+            <div class="content horizontal-content">
+              <div class="card-content flex-col">
+                <p>Word of the Day</p>
+                <h2>be.nev.o.lent</h2>
+                <p>adjective</p>
+                <p>well meaning and kindly. "a benevolent smile"</p>
+              </div>
+              <div class="card-actions">
+                <button class="button overlay-btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/a2605d1bec.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="card.js"></script>
+  </body>
 </html>
