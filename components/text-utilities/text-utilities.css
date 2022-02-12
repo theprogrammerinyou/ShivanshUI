@@ -1,0 +1,17 @@
+@import "../../css/variables.css";
+
+.heading-container {
+    background-color: rgb(65, 152, 173);
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.gray-text {
+    color: var(--lynx-gray);
+}
+
+.centered-text {
+    color: var(--lynx-gray);
+    text-align: center;
+}

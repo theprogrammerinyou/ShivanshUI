@@ -1,24 +1,24 @@
-h1, .xlg-para {
+.h1, .xxl-para {
     font-size: 48px;
     line-height: 64px;
 }
 
-h2, .xl-para{
+.h2, .xl-para{
     font-size: 32px;
     line-height: 40px;
 }
 
-h3, .lg-para {
+.h3, .lg-para {
     font-size: 24px;
     line-height: 32px;
 }
 
-h4, .md-para {
+.h4, .md-para {
     font-size: 16px;
     line-height: 24px;
 }
 
-h5, .sm-para {
+.h5, .sm-para {
     font-size: 8px;
     line-height: 16px;
 }
