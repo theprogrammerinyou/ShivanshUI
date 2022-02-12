@@ -1,11 +1,5 @@
 @import "../../css/variables.css";
 
-main {
-    margin: 1rem 1rem;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-}
-
 .card {
     border:none;
     position: relative;
@@ -25,16 +19,11 @@ main {
     cursor: pointer;
 }
 
-p {
-    margin-top: 1rem;
-}
-
 .button{
     color: var(--btn-color);
     background-color: rgb(29, 24, 24);
     border: none;
     font-size: 1rem;
-    margin-top: 1rem;
     padding: 0.5rem;
     cursor: pointer;
 }

@@ -10,12 +10,6 @@
     display: inline-block;
 }
 
-.icon-img {
-    width: 5rem;
-    height: 5rem;
-    display: inline-block;
-}
-
 .number {
     background-color: red;
     border-radius: 50%;
@@ -23,5 +17,5 @@
     top: 0;
     right: 0;
     color: white;
-    padding: 0.2rem;
+    padding: 0.1rem;
 }

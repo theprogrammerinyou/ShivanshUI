@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #ff3b30;
-    --secondary-color: #fff6ea;
+    --primary-color: #1ecbe1;
+    --secondary-color:#DF2038;
     --action-color: #3B82F6;
     --grey: #9a9a9a;
     --black:#282828;
@@ -11,4 +11,10 @@
     --success-color: #47F422;
     --warn-color: #E0F52A;
     --btn-color: #8AC0ED;
+    --error-color: rgb(233, 7, 7);
+    --light-text: 300;
+    --regular-text: 400;
+    --semibold-text: 600;
+    --bold-text: 700;
+    --black-text: 900;
 }

@@ -1,3 +1,38 @@
+@import "/css/variables.css";
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+
+.basic-margin-padding {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.classname {
+  color: var(--secondary-color);
+}
+
+.container {
+  border: none;
+  margin: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  align-items: center;
+  background-color: var(--action-color);
+  color: var(--lynx-white);
+}
+
+.code-container {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: var(--lynx-white);
+  width: 100%;
+}
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -8,14 +43,21 @@
   flex-direction: column;
 }
 
-.basic-margin-padding {
-  margin: 1rem;
-  padding: 1rem;
+.main-section {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 50%;
+  margin: auto;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.sm-margin-padding {
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+h1, p {
+  margin: 0.5rem;
 }
 
 ul > li {

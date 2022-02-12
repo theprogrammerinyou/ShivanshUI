@@ -13,14 +13,14 @@
       <nav>
         <div class="navbar">
           <div id="left-nav">
-            <a href="../dashboard.html">
-              <img src="../img/logo.png" alt="logo" />
+            <a href="../../dashboard.html">
+              <img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif" width="100" height="100" alt="logo" />
             </a>
           </div>
           <div id="right-nav">
             <ul class="navbar">
               <li>
-                <a href="../dashboard.html">
+                <a href="../../dashboard.html">
                   <i id="fas fa-home"></i>
                   <span>Dashboard</span>
                 </a>
@@ -28,16 +28,16 @@
               <li class="dropdown">
                 <button class="dropdown-btn">Components</button>
                 <div class="dropdown-components">
-                  <a href="../components/alert/alert.html">Alert</a>
-                  <a href="../components/avatar/avatar.html">Avatar</a>
-                  <a href="../components/badge/badge.html">Badge</a>
-                  <a href="../components/button/button.html">Button</a>
-                  <a href="../components/card/card.html">Card</a>
-                  <a href="../components/image/image.html">Image</a>
-                  <a href="../components/input/input.html">Input</a>
-                  <a href="../components/alert/alert.html">Text Utilities</a>
-                  <a href="../components/alert/alert.html">List</a>
-                  <a href="../components/alert/alert.html">Navbar</a>
+                  <a href="/components/alert/alert.html">Alert</a>
+                  <a href="/components/avatar/avatar.html">Avatar</a>
+                  <a href="/components/badge/badge.html">Badge</a>
+                  <a href="/components/button/button.html">Button</a>
+                  <a href="/components/card/card.html">Card</a>
+                  <a href="/components/image/image.html">Image</a>
+                  <a href="/components/input/input.html">Input</a>
+                  <a href="/components/alert/alert.html">Text Utilities</a>
+                  <a href="/components/alert/alert.html">List</a>
+                  <a href="/components/alert/alert.html">Navbar</a>
                 </div>
               </li>
             </ul>
@@ -45,22 +45,48 @@
         </div>
       </nav>
     </main>
-    <section>
-      <div class="img-container basic-margin-padding flex">
-        <div class="img-container">
+    <section class="main-section">
+      <h1>Image</h1>
+      <p>There are two types of images present in this component library.</p>
+      <ol>
+        <li>Responsive Image - Use a classname <span class="classname">img-resp</span> to make an image responsive</li>
+        <li>Round Image - Use classname <span class="classname">img-round</span> to make an image round</li>
+      </ol>
+      <div class="basic-margin-padding flex-col">
+        <div class="container flex-col basic-margin-padding">
+          <h3>Responsive Image</h3>
           <img
             src="https://images.unsplash.com/photo-1643779564029-ee084c40d9ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
             alt="responsive-img"
             class="img-resp"
           />
         </div>
-        <div class="img-container">
+        <pre class="code-container">
+          <code>
+            &lt;img
+              src="your link goes here"
+              alt="responsive-img"
+              class="img-resp"
+            />
+          </code>
+        </pre>
+        <div class="container flex-col basic-margin-padding">
+          <h3>Round Image</h3>
           <img
             src="https://images.unsplash.com/photo-1643779564029-ee084c40d9ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
             alt="round-img"
             class="img-round"
           />
         </div>
+        <pre class="code-container">
+          <code>
+            &lt;img
+              src="your link goes here"
+              alt="round-img"
+              class="img-round"
+            />
+          </code>
+        </pre>
       </div>
     </section>
   </body>

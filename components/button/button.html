@@ -15,7 +15,7 @@
         <div class="navbar">
           <div id="left-nav">
             <a href="../../../dashboard.html">
-              <img src="../img/logo.png" alt="logo" />
+              <img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif" width="100" height="100" alt="logo" />
             </a>
           </div>
           <div id="right-nav">
@@ -46,16 +46,45 @@
         </div>
       </nav>
     </main>
-    <section>
-        <div class="container">
+    <section class="main-section">
+      <h1>Button</h1>
+      <p>Buttons are of many types. Some of them are present here</p>
+      <ol>
+        <li>Normal Button - Use classname <span class="classname">button, btn-primary</span></li>
+        <li>Link Button - Provides a link to a page, a href should be given compulsorily. <span class="classname">button, btn-link</span> </li>
+        <li>Icon Button - These buttons have a icon beside it that represent the action they do. <span class="classname">button, btn-icon</span></li>
+        <li>Fab Button - These buttons are easily representable by the icons that they have, they do not need a text with it.<span class="classname">button, btn-fab</span> </li>
+      </ol>
+        <div class="container flex">
             <button class="button btn-primary">Primary Button</button>
-            <a href="../../components/avatar/avatar.html" class="button btn-link">
-            Link Button</a>
+            <button class="button btn-link">
+              <a href="../../components/avatar/avatar.html">
+                Link Button</a>
+            </button>
             <button class="button btn-icon">
-               <i class="fas fa-plus"></i>Icon Button</button>
+               <img src="/assets/trash-solid.svg" alt="delete-icon" width="20" height="20" />Icon Button
+            </button>
             <button class="button btn-fab">
-               <i class="fas fa-plus"></i></button>
+               <img src="/assets/plus-solid.svg" alt="add-icon" width="20" height="20" />
+            </button>
         </div>
+        <pre class="code-container">
+          <code>
+            &lt;button class="button btn-primary">Primary Button</button>
+            &lt;button class="button btn-link">
+              &lt;a href="link goes here">
+                Link Button &lt;/a>
+            &lt;/button>
+            &lt;button class="button btn-icon">
+               &lt;img src="link goes here" alt="delete-icon" 
+               width="20" height="20" />Icon Button
+            &lt;/button>
+            &lt;button class="button btn-fab">
+               &lt;img src="link goes here" alt="add-icon" 
+               width="20" height="20" />
+            &lt;/button>
+          </code>
+        </pre>
     </section>
     <script src="https://kit.fontawesome.com/a2605d1bec.js" crossorigin="anonymous"></script>
 </body>
