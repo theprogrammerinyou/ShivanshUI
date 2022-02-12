@@ -1,7 +1,5 @@
-@import "../../css/variables.css";
-
 .heading-container {
-    background-color: rgb(65, 152, 173);
+    background-color: #3B82F6;
     border-radius: 10px;
     width: 100%;
     color: #fff;
