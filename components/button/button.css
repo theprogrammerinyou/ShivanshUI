@@ -9,10 +9,6 @@
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-}
-
 .btn-primary {
     background-color: var(--primary-color);
 }

@@ -13,7 +13,7 @@
 }
 
 .alert-error {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .alert-success {
