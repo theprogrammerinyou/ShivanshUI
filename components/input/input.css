@@ -1,0 +1,39 @@
+.label-inputs {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.input {
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.alert {
+    border: 1px solid var(--warn-color);
+}
+
+.success {
+    border: 1px solid var(--success-color);
+}
+
+.error {
+    border: 1px solid var(--primary-color);
+}
+
+.alert-div{
+    color: var(--warning-color);
+    margin-top: 0.2rem;
+}
+
+.error-div{
+    color: var(--error-color);
+    margin-top: 0.2rem;
+}
+
+.success-div {
+    color: var(--success-color);
+    margin-top: 0.2rem;
+}

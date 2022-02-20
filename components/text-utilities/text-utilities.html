@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert</title>
-    <link href="alert.css" rel="stylesheet" />
-    <link href="../../css/base.css" rel="stylesheet" />
+    <title>Text-Utilities</title>
+    <link rel="stylesheet" href="text-utilities.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
   </head>
-
   <body>
     <main>
       <nav>
@@ -54,48 +53,59 @@
       </nav>
     </main>
     <section class="main-section">
-      <h1>Alert</h1>
-      <p class="sm-margin-padding">
-        Alert's are messages which give some special message. They can be easily
-        understood by the color they have.
+      <h3>Typography Section</h3>
+      <p>
+        In this section, the component library shows the styles applied to
+        headings, paragraphs and styles used to center text.
       </p>
-      <p class="sm-margin-padding">
-        There are 4 different alerts in the component library.
-      </p>
-      <ol>
-        <li>
-          <span class="bold"> Info Alert </span> -
-          <span class="classname">.alert-primary</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Error Alert</span> -
-          <span class="classname">.alert-error</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Success Alert</span> -
-          <span class="classname">.alert-success</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Warning Alert</span> -
-          <span class="classname">.alert-warning</span> class should be used
-        </li>
-      </ol>
-      <div class="flex-col container">
-        <div class="alert alert-primary">Info Alert</div>
-        <div class="alert alert-error">Error Alert</div>
-        <div class="alert alert-success">Success Alert</div>
-        <div class="alert alert-warning">Warning Alert</div>
+      <div class="heading-container flex-col basic-margin-padding">
+        <h3>Headings</h3>
+        <p class="h1">H1 Heading</p>
+        <p class="h2">H2 Heading</p>
+        <p class="h3">H3 Heading</p>
+        <p class="h4">H4 Heading</p>
+        <p class="h5">H5 Heading</p>
       </div>
       <pre class="code-container">
-      <code>
-        &lt;div class="flex alert-container">
-          &lt;div class="alert alert-primary"&gt;Info Alert.&lt;/div&gt;
-          &lt;div class="alert alert-error"&gt;Error Alert.&lt;/div&gt;
-          &lt;div class="alert alert-success"&gt;Success Alert.&lt;/div&gt;
-          &lt;div class="alert alert-warning"&gt;Warning Alert.&lt;/div&gt;
-        &lt;/div&gt;
-      </code>
-    </pre>
+        <code>
+          &lt;p class="h1">H1 Heading&lt;/p>
+          &lt;p class="h2">H2 Heading&lt;/p>
+          &lt;p class="h3">H3 Heading&lt;/p>
+          &lt;p class="h4">H4 Heading&lt;/p>
+          &lt;p class="h5">H5 Heading&lt;/p>
+        </code>
+      </pre>
+      <div class="heading-container flex-col basic-margin-padding">
+        <h3>Small Text</h3>
+        <p class="lg-para">Text 3</p>
+        <p class="md-para">Text 4</p>
+        <p class="sm-para">Text 5</p>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;p class="lg-para">Text 3&lt;/p>
+          &lt;p class="md-para">Text 4&lt;/p>
+          &lt;p class="sm-para">Text 5&lt;/p>
+        </code>
+      </pre>
+      <div class="heading-container flex-col basic-margin-padding">
+        <h3>Gray Text</h3>
+        <p class="gray-text">This text is gray in color</p>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;p class="gray-text">Text &lt;/p>
+        </code>
+      </pre>
+      <div class="heading-container flex-col basic-margin-padding">
+        <h3>Centered Text</h3>
+        <p class="centered-text">This text is centered</p>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;p class="centered-text">This text is centered&lt;/p>
+        </code>
+      </pre>
     </section>
   </body>
 </html>

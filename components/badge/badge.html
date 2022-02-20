@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Badge</title>
+  <link href="badge.css" rel="stylesheet" />
+  <link href="../../css/base.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <nav>
+      <div class="navbar">
+        <div id="left-nav">
+          <a href="../../index.html">
+            <img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif" width="100"
+              height="100" alt="logo" />
+          </a>
+        </div>
+        <div id="right-nav">
+          <ul class="navbar">
+            <li>
+              <a href="../../index.html">
+                <i id="fas fa-home"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li class="dropdown">
+              <button class="dropdown-btn">Components</button>
+              <div class="dropdown-components">
+                <a href="/components/alert/alert.html">Alert</a>
+                <a href="/components/avatar/avatar.html">Avatar</a>
+                <a href="/components/badge/badge.html">Badge</a>
+                <a href="/components/button/button.html">Button</a>
+                <a href="/components/card/card.html">Card</a>
+                <a href="/components/image/image.html">Image</a>
+                <a href="/components/input/input.html">Input</a>
+                <a href="/components/text-utilities/text-utilities.html">Text Utilities</a>
+                <a href="/components/list/list.html">List</a>
+                <a href="/components/navbar/navbar.html">Navbar</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </main>
+  <section class="main-section">
+    <h1>Badge</h1>
+    <p>Badges are usually numbers, represented on top of profile images, or icons, or on top of anything, that show a
+      number. Usually they are used to count number of notifications user has received. </p>
+    <p>This component library has 2 types of badges.</p>
+    <ol>
+      <li>Profile with badge - can be used with div with classname as <span class="classname">profile-badge</span>. A
+        class name as <span>img</span> should also be given to the image tag. </li>
+      <li>Icon with badge - can be used with div with classname as <span class="classname">icon-badge</span>. This can
+        also be combined with <span class="classname">.sm .md, .xl, .xxl, .lg</span> to increase the size of the icons
+      </li>
+    </ol>
+    <div class="container basic-margin-padding flex-col">
+      <h2>Profile with Badge.</h2>
+      <div class="flex">
+        <div class="profile-badge">
+          <img class="img"
+            src="https://images.unsplash.com/photo-1578632767115-351597cf2477?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YW5pbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="profile-img" />
+          <div class="number">10</div>
+        </div>
+        <div class="profile-badge">
+          <img class="img"
+            src="https://images.unsplash.com/photo-1541562232579-512a21360020?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="profile-img" />
+          <div class="number">10</div>
+        </div>
+        <div class="profile-badge">
+          <img class="img"
+            src="https://images.unsplash.com/photo-1643713303308-bac9090057d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU4fHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="profile-img" />
+          <div class="number">10</div>
+        </div>
+      </div>
+    </div>
+    <pre class="code-container">
+        <code>
+          &lt;div class="flex">
+            &lt;div class="profile-badge">
+              &lt;img
+                class="img"
+                src="link goes here"
+                alt="profile-img"
+              />
+              &lt;div class="number">10</div>
+            </div>
+            &lt;div class="profile-badge">
+              &lt;img
+                class="img"
+                src="link goes here"
+                alt="profile-img"
+              />
+              &lt;div class="number">10</div>
+            </div>
+            &lt;div class="profile-badge">
+              &lt;img
+                class="img"
+                src="link goes here"
+                alt="profile-img"
+              />
+              &lt;div class="number">10</div>
+            </div>
+          </div>
+        </code>
+      </pre>
+
+    <div class="container basic-margin-padding flex-col">
+      <h2>Icon with Badge.</h2>
+      <div class="flex">
+        <div class="icon-badge xxl">
+          <img src="../../assets/envelope-solid.svg" alt="profile-img" />
+          <div class="number">10</div>
+        </div>
+        <div class="icon-badge xxl">
+          <img src="../../assets/bell-solid.svg" alt="profile-img" />
+          <div class="number">10</div>
+        </div>
+        <div class="icon-badge xxl">
+          <img src="../../assets/cart-plus-solid.svg" alt="profile-img" class="icon-img" />
+          <div class="number">10</div>
+        </div>
+      </div>
+    </div>
+    <pre class="code-container">
+        <code>
+           &lt;div class="flex">
+            &lt;div class="icon-badge xxl">
+              &lt;img
+                src="../../assets/envelope-solid.svg"
+                alt="profile-img"
+              />
+              &lt;div class="number">10&lt;/div>
+            &lt;/div>
+            &lt;div class="icon-badge xxl">
+              &lt;img
+                src="../../assets/bell-solid.svg"
+                alt="profile-img"
+              />
+              &lt;div class="number">10&lt;/div>
+            &lt;/div>
+            &lt;div class="icon-badge xxl">
+              &lt;img
+                src="../../assets/cart-plus-solid.svg"
+                alt="profile-img"
+              />
+              &lt;div class="number">10&lt;/div>
+            &lt;/div>
+          &lt;/div>
+        </code>
+      </pre>
+  </section>
+</body>
+
+</html>

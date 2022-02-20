@@ -1,0 +1,15 @@
+.heading-container {
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    width: 100%;
+    color: var(--black);
+}
+
+.gray-text {
+    color: var(--lynx-gray);
+}
+
+.centered-text {
+    color: var(--lynx-gray);
+    text-align: center;
+}

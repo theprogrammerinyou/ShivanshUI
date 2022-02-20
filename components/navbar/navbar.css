@@ -1,0 +1,14 @@
+.navigationBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigationBar > div {
+    align-items: center;
+}
+
+div > p {
+    margin-left: 1.5rem;
+}

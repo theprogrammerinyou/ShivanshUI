@@ -1,0 +1,41 @@
+.button {
+    border-radius: 10px;
+    border: none;
+    color: var(--black);
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+}
+
+.btn-link {
+    background-color: var(--secondary-color);
+}
+
+.btn-icon {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-outline {
+    border: 1px solid var(--secondary-color);
+    color: black;
+    padding: 1rem;
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.btn-fab{
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 15px;
+}

@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert</title>
-    <link href="alert.css" rel="stylesheet" />
-    <link href="../../css/base.css" rel="stylesheet" />
+    <link rel="stylesheet" href="image.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <title>Image</title>
   </head>
-
   <body>
     <main>
       <nav>
@@ -54,48 +53,54 @@
       </nav>
     </main>
     <section class="main-section">
-      <h1>Alert</h1>
-      <p class="sm-margin-padding">
-        Alert's are messages which give some special message. They can be easily
-        understood by the color they have.
-      </p>
-      <p class="sm-margin-padding">
-        There are 4 different alerts in the component library.
-      </p>
+      <h1>Image</h1>
+      <p>There are two types of images present in this component library.</p>
       <ol>
         <li>
-          <span class="bold"> Info Alert </span> -
-          <span class="classname">.alert-primary</span> class should be used
+          Responsive Image - Use a classname
+          <span class="classname">img-resp</span> to make an image responsive
         </li>
         <li>
-          <span class="bold">Error Alert</span> -
-          <span class="classname">.alert-error</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Success Alert</span> -
-          <span class="classname">.alert-success</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Warning Alert</span> -
-          <span class="classname">.alert-warning</span> class should be used
+          Round Image - Use classname
+          <span class="classname">img-round</span> to make an image round
         </li>
       </ol>
-      <div class="flex-col container">
-        <div class="alert alert-primary">Info Alert</div>
-        <div class="alert alert-error">Error Alert</div>
-        <div class="alert alert-success">Success Alert</div>
-        <div class="alert alert-warning">Warning Alert</div>
+      <div class="basic-margin-padding flex-col">
+        <div class="container flex-col basic-margin-padding">
+          <h3>Responsive Image</h3>
+          <img
+            src="https://images.unsplash.com/photo-1643779564029-ee084c40d9ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="responsive-img"
+            class="img-resp"
+          />
+        </div>
+        <pre class="code-container">
+          <code>
+            &lt;img
+              src="your link goes here"
+              alt="responsive-img"
+              class="img-resp"
+            />
+          </code>
+        </pre>
+        <div class="container flex-col basic-margin-padding">
+          <h3>Round Image</h3>
+          <img
+            src="https://images.unsplash.com/photo-1643779564029-ee084c40d9ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="round-img"
+            class="img-round"
+          />
+        </div>
+        <pre class="code-container">
+          <code>
+            &lt;img
+              src="your link goes here"
+              alt="round-img"
+              class="img-round"
+            />
+          </code>
+        </pre>
       </div>
-      <pre class="code-container">
-      <code>
-        &lt;div class="flex alert-container">
-          &lt;div class="alert alert-primary"&gt;Info Alert.&lt;/div&gt;
-          &lt;div class="alert alert-error"&gt;Error Alert.&lt;/div&gt;
-          &lt;div class="alert alert-success"&gt;Success Alert.&lt;/div&gt;
-          &lt;div class="alert alert-warning"&gt;Warning Alert.&lt;/div&gt;
-        &lt;/div&gt;
-      </code>
-    </pre>
     </section>
   </body>
 </html>

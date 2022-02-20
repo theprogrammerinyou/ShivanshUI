@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="../../css/base.css">
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="navbar">
+          <div id="left-nav">
+            <a href="../../index.html">
+              <img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif" width="100" height="100" alt="logo" />
+            </a>
+          </div>
+          <div id="right-nav">
+            <ul class="navbar">
+              <li>
+                <a href="../../index.html">
+                  <i id="fas fa-home"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li class="dropdown">
+                <button class="dropdown-btn">Components</button>
+                <div class="dropdown-components">
+                  <a href="/components/alert/alert.html">Alert</a>
+                  <a href="/components/avatar/avatar.html">Avatar</a>
+                  <a href="/components/badge/badge.html">Badge</a>
+                  <a href="/components/button/button.html">Button</a>
+                  <a href="/components/card/card.html">Card</a>
+                  <a href="/components/image/image.html">Image</a>
+                  <a href="/components/input/input.html">Input</a>
+                  <a href="/components/text-utilities/text-utilities.html">Text Utilities</a>
+                  <a href="/components/list/list.html">List</a>
+                  <a href="/components/navbar/navbar.html">Navbar</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </main>
+    <section class="main-section">
+      <h1>Input</h1>
+      <p>Input fields are most important when you have forms, or want to take input from the user. </p>
+      <p>There are 4 types of inputs available in the component library</p>
+      <ol>
+        <li>Primary Input - A normal input you can use <span class="classname">input</span> just for normal styling.</li>
+        <li>Success Input - A input with success message, use a div as well with classname <span class="classname">success-div</span>, as well use <span class="classname">success</span> along with the normal input class.</li>
+        <li>Warning Input -  A input with success message, use a div as well with classname <span class="classname">alert-div</span>, as well use <span class="classname">alert</span> along with the normal input class.</li>
+        <li>Error Input -  A input with success message, use a div as well with classname <span class="classname">error-div</span>, as well use <span class="classname">error</span> along with the normal input class.</li>
+      </ol>
+      <div>
+        <div class="container basic-margin-padding">
+          <h3>Primary Input</h3>
+          <div class="label-inputs">
+            <label for="username">Username *</label>
+            <input
+              class="input"
+              id="username"
+              type="text"
+              placeholder="Enter username"
+            />
+          </div>
+          <div class="label-inputs">
+            <label for="username">Password *</label>
+            <input class="input" id="username" type="text" placeholder="Normal" />
+          </div>
+        </div>
+        <pre class="code-container basic-margin-padding">
+          <code>
+            &lt;div class="label-inputs">
+              &lt;label for="username" class="success-div">
+              Password * &lt;/label>
+              &lt;input
+                class="success input"
+                id="username"
+                type="text"
+                placeholder="Success"
+              />
+              &lt;div class="success-div">Password validation met!</div>
+            </div>
+          </code>
+        </pre>
+        <div class="container basic-margin-padding">
+          <h3>Success Input</h3>
+          <div class="label-inputs">
+            <label for="username" class="success-div">Password *</label>
+            <input
+              class="success input"
+              id="username"
+              type="text"
+              placeholder="Success"
+            />
+            <div class="success-div">Password validation met!</div>
+          </div>
+        </div>
+        <pre class="code-container basic-margin-padding">
+          <code>
+            &lt;div class="label-inputs">
+              &lt;label for="username" class="success-div">Password *</label>
+              &lt;input
+                class="success input"
+                id="username"
+                type="text"
+                placeholder="Success"
+              />
+              &lt;div class="success-div">Password validation met!</div>
+            </div>
+          </code>
+        </pre>
+        <div class="container basic-margin-padding">
+          <h3>Alert Input</h3>
+          <div class="label-inputs">
+            <label for="username" class="alert-div">Password *</label>
+            <input
+              class="alert input"
+              id="username"
+              type="text"
+              placeholder="Warning"
+            />
+            <div class="alert-div">Password should be 8 characters long!</div>
+          </div>
+        </div>
+        <pre class="code-container">
+          <code>
+            &lt;div class="label-inputs">
+              &lt;label for="username" class="alert-div">Password *</label>
+              &lt;input
+                class="alert input"
+                id="username"
+                type="text"
+                placeholder="Warning"
+              />
+              &lt;div class="alert-div">Password should be 8 characters long!</div>
+            </div>
+          </code>
+        </pre>
+        <div class="container basic-margin-padding">
+          <h3>Error Input</h3>
+          <div class="label-inputs">
+            <label for="username" class="error-div">Password *</label>
+            <input
+              class="error input"
+              id="username"
+              type="text"
+              placeholder="Wrong"
+            />
+            <div class="error-div">Wrong password! 2 Attempts left</div>
+          </div>
+        </div>
+        <pre class="code-container">
+          <code>
+            &lt;div class="label-inputs">
+              &lt;label for="username" class="error-div">Password *</label>
+              &lt;input
+                class="error input"
+                id="username"
+                type="text"
+                placeholder="Wrong"
+              />
+              &lt;div class="error-div">Wrong password! 2 Attempts left</div>
+            </div>
+          </code>
+        </pre>
+      </div>
+    </section>
+  </body>
+</html>

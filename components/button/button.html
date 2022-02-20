@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button</title>
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="../../css/base.css">
+
+<body>
+  <main>
+    <nav>
+      <div class="navbar">
+        <div id="left-nav">
+          <a href="../../index.html">
+            <img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif" width="100"
+              height="100" alt="logo" />
+          </a>
+        </div>
+        <div id="right-nav">
+          <ul class="navbar">
+            <li>
+              <a href="../../index.html">
+                <i id="fas fa-home"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li class="dropdown">
+              <button class="dropdown-btn">Components</button>
+              <div class="dropdown-components">
+                <a href="/components/alert/alert.html">Alert</a>
+                <a href="/components/avatar/avatar.html">Avatar</a>
+                <a href="/components/badge/badge.html">Badge</a>
+                <a href="/components/button/button.html">Button</a>
+                <a href="/components/card/card.html">Card</a>
+                <a href="/components/image/image.html">Image</a>
+                <a href="/components/input/input.html">Input</a>
+                <a href="/components/text-utilities/text-utilities.html">Text Utilities</a>
+                <a href="/components/list/list.html">List</a>
+                <a href="/components/navbar/navbar.html">Navbar</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </main>
+  <section class="main-section">
+    <h1>Button</h1>
+    <p>Buttons are of many types. Some of them are present here</p>
+    <ol>
+      <li>Normal Button - Use classname <span class="classname">button, btn-primary</span></li>
+      <li>Link Button - Provides a link to a page, a href should be given compulsorily. <span class="classname">button,
+          btn-link</span> </li>
+      <li>Icon Button - These buttons have a icon beside it that represent the action they do. <span
+          class="classname">button, btn-icon</span></li>
+      <li>Fab Button - These buttons are easily representable by the icons that they have, they do not need a text with
+        it.<span class="classname">button, btn-fab</span> </li>
+    </ol>
+    <div class="container flex">
+      <button class="button btn-primary">Primary Button</button>
+      <button class="button btn-link">
+        <a href="../../components/avatar/avatar.html">
+          Link Button</a>
+      </button>
+      <button class="button btn-icon">
+        <img src="/assets/trash-solid.svg" alt="delete-icon" width="20" height="20" />Icon Button
+      </button>
+      <button class="button btn-outline">Outline Button</button>
+      <button class="button btn-fab">
+        <img src="/assets/plus-solid.svg" alt="add-icon" width="25" height="25" />
+      </button>
+    </div>
+    <pre class="code-container">
+          <code>
+            &lt;button class="button btn-primary">Primary Button</button>
+            &lt;button class="button btn-link">
+              &lt;a href="link goes here">
+                Link Button &lt;/a>
+            &lt;/button>
+            &lt;button class="button btn-icon">
+               &lt;img src="link goes here" alt="delete-icon" 
+               width="20" height="20" />Icon Button
+            &lt;/button>
+            &lt;button class="button btn-fab">
+               &lt;img src="link goes here" alt="add-icon" 
+               width="20" height="20" />
+            &lt;/button>
+          </code>
+        </pre>
+  </section>
+  <script src="https://kit.fontawesome.com/a2605d1bec.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

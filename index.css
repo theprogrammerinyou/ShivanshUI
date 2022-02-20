@@ -1,0 +1,47 @@
+@import "/css/variables.css";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.block {
+    display: block;
+    font-size: 5rem;
+    font-weight: var(--bold-text);
+}
+
+.italic {
+    font-style: italic;
+    margin-right: 5px;
+    font-size: 3rem;
+}
+
+.paragraph {
+    width: 50%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+.title {
+  font-size: 5rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    color: var(--white);
+}

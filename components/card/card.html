@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <div class="navbar">
+          <div id="left-nav">
+            <a href="../../index.html">
+              <img
+                src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif"
+                width="100"
+                height="100"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div id="right-nav">
+            <ul class="navbar">
+              <li>
+                <a href="../../index.html">
+                  <i id="fas fa-home"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li class="dropdown">
+                <button class="dropdown-btn">Components</button>
+                <div class="dropdown-components">
+                  <a href="/components/alert/alert.html">Alert</a>
+                  <a href="/components/avatar/avatar.html">Avatar</a>
+                  <a href="/components/badge/badge.html">Badge</a>
+                  <a href="/components/button/button.html">Button</a>
+                  <a href="/components/card/card.html">Card</a>
+                  <a href="/components/image/image.html">Image</a>
+                  <a href="/components/input/input.html">Input</a>
+                  <a href="/components/text-utilities/text-utilities.html"
+                    >Text Utilities</a
+                  >
+                  <a href="/components/list/list.html">List</a>
+                  <a href="/components/navbar/navbar.html">Navbar</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </main>
+    <section class="main-section">
+      <h3>Cards</h3>
+      <p>
+        Cards are bordered-divs with some information inside them. You would see
+        lot of cards when you visit an E-commerce website.
+      </p>
+      <p>
+        This component library has 6 types of cards. Try the examples to check
+        the cards.
+      </p>
+      <ol>
+        <li>
+          Card with basic text - Use classname
+          <span class="classname">card</span> to display a basic card. Also use
+          the inner classes <span class="classname">card-content</span> for
+          better styling of the content inside the card.
+        </li>
+        <li>
+          Card with dismiss button on top - Use a image with class
+          <span class="classname">cross-img</span> to have the dismiss card
+          feature.
+        </li>
+        <li>
+          Card with badges - Use a div with classname
+          <span class="classname">badge</span> to get a badge over the basic
+          card.
+        </li>
+        <li>
+          Card with text overlay - Use a image on background to get the text
+          over it.
+        </li>
+        <li>
+          Card with horizontal text - Use class name
+          <span class="classname">horizontal-card</span> along with the basic
+          card classes to get a horizontal card with image beside it.
+        </li>
+        <li>
+          Card with shadow. - All these cards have some shadow in them, this
+          makes the cards look better.
+        </li>
+      </ol>
+      <div class="container flex-col">
+        <h1>Card with Basic Text</h1>
+        <div class="flex">
+          <div class="card basic-margin-padding flex-col">
+            <div class="card-content flex-col">
+              <p>Word of the Day</p>
+              <h2>be.nev.o.lent</h2>
+              <p>adjective</p>
+              <p>well meaning and kindly. "a benevolent smile"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <pre class="code-container">
+          <code>
+                &lt;div class="card basic-margin-padding flex-col">
+                  &lt;div class="card-content flex-col">
+                    &lt;p>Word of the Day&lt;/p>
+                    &lt;h2>be.nev.o.lent&lt;/h2>
+                    &lt;p>adjective&lt;/p>
+                    &lt;p>well meaning and kindly. "a benevolent smile"&lt;/p>
+                  &lt;/div>
+                &lt;/div>
+          </code>
+      </pre>
+      <div class="container flex-col">
+        <h1>Card with Dismiss</h1>
+        <div class="flex">
+          <div class="card dismiss-card basic-margin-padding flex-col">
+            <figure class="figure">
+              <!-- <div class="tooltip ">Dismiss</div> -->
+              <img
+                class="cross-img"
+                width="20"
+                height="20"
+                src="/assets/times-solid.svg"
+              />
+            </figure>
+            <div class="card-content flex-col">
+              <p>Word of the Day</p>
+              <h2>be.nev.o.lent</h2>
+              <p>adjective</p>
+              <p>well meaning and kindly. "a benevolent smile"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <pre class="code-container">
+          <code>
+            &lt;div class="card dismiss-card basic-margin-padding flex-col">
+                &lt;figure class="figure">
+                  &lt;img
+                    class="cross-img"
+                    width="20"
+                    height="20"
+                    src="/assets/times-solid.svg"
+                  />
+                &lt;/figure>
+                &lt;div class="card-content flex-col">
+                  &lt;p>Word of the Day&lt;/p>
+                  &lt;h2>be.nev.o.lent&lt;/h2>
+                  &lt;p>adjective&lt;/p>
+                  &lt;p>well meaning and kindly. "a benevolent smile"&lt;/p>
+                &lt;/div>
+              &lt;/div>
+          </code>
+      </pre>
+      <div class="container flex-col">
+        <h1>Card with Badges</h1>
+        <div class="flex">
+          <div class="card basic-margin-padding flex-col">
+            <div class="badge"></div>
+            <div class="card-content flex-col">
+              <p>Word of the Day</p>
+              <h2>be.nev.o.lent</h2>
+              <p>adjective</p>
+              <p>well meaning and kindly. "a benevolent smile"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <pre class="code-container">
+          <code>
+            &lt;div class="card basic-margin-padding flex-col">
+                &lt;div class="badge">&lt;/div>
+                &lt;div class="card-content flex-col">
+                  &lt;p>Word of the Day&lt;/p>
+                  &lt;h2>be.nev.o.lent&lt;/h2>
+                  &lt;p>adjective&lt;/p>
+                  &lt;p>well meaning and kindly. "a benevolent smile"&lt;/p>
+                &lt;/div>
+            &lt;/div>
+          </code>
+      </pre>
+      <div class="container flex-col">
+        <h1>Card with Text Overlay</h1>
+        <div class="flex">
+          <div class="card basic-margin-padding flex-col">
+            <img
+              height="210"
+              width="250"
+              src="https://images.unsplash.com/photo-1644308251427-cd809dc65e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D"
+            />
+            <div class="content">
+              <div class="card-content flex-col">
+                <p>Word of the Day</p>
+                <h2>be.nev.o.lent</h2>
+                <p>adjective</p>
+                <p>well meaning and kindly. "a benevolent smile"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <pre class="code-container">
+          <code>
+            &lt;div class="card basic-margin-padding flex-col">
+                &lt;img
+                  height="210"
+                  width="250"
+                  src="link goes here"
+                />
+                &lt;div class="content">
+                  &lt;div class="card-content flex-col">
+                    &lt;p>Word of the Day&lt;/p>
+                    &lt;h2>be.nev.o.lent&lt;/h2>
+                    &lt;p>adjective&lt;/p>
+                    &lt;p>well meaning and kindly. "a benevolent smile"&lt;/p>
+                  &lt;/div>
+                &lt;/div>
+              &lt;/div>
+          </code>
+      </pre>
+      <div class="container flex-col">
+        <h1>Card with Horizontal Text</h1>
+        <div class="flex">
+          <div class="card horizontal-card basic-margin-padding flex">
+            <img
+              height="210"
+              width="250"
+              src="https://images.unsplash.com/photo-1644308251427-cd809dc65e4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D"
+            />
+            <div class="content horizontal-content">
+              <div class="card-content flex-col">
+                <p>Word of the Day</p>
+                <h2>be.nev.o.lent</h2>
+                <p>adjective</p>
+                <p>well meaning and kindly. "a benevolent smile"</p>
+              </div>
+              <div class="card-actions">
+                <button class="button overlay-btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <pre class="code-container">
+          <code>
+            &lt;div class="card horizontal-card basic-margin-padding flex">
+                &lt;img
+                  height="210"
+                  width="250"
+                  src="link goes here"
+                />
+                &lt;div class="content horizontal-content">
+                  &lt;div class="card-content flex-col">
+                    &lt;p>Word of the Day&lt;/p>
+                    &lt;h2>be.nev.o.lent&lt;/h2>
+                    &lt;p>adjective&lt;/p>
+                    &lt;p>well meaning and kindly. "a benevolent smile"&lt;/p>
+                  &lt;/div>
+                  &lt;div class="card-actions">
+                    &lt;button class="button overlay-btn">Learn More&lt;/button>
+                  &lt;/div>
+                &lt;/div>
+              &lt;/div>
+          </code>
+      </pre>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/a2605d1bec.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="card.js"></script>
+  </body>
+</html>

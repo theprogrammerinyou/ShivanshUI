@@ -1,3 +1,7 @@
+.align-center {
+    align-items: center;
+}
+
 .avatar {
   margin: 1rem;
   border-radius: 50%;
@@ -18,13 +22,13 @@
 }
 
 .avatar-status {
-  border: 2px solid var(--white);
-  background-color: var(--bg-color);
-  padding: 8%;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 0em;
-  right: 0em;
+    border: 2px solid var(--white);
+    background-color: var(--bg-color);
+    padding: 8%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .avatar-status.offline {
@@ -37,4 +41,14 @@
 
 .avatar-status.online {
   background-color: var(--success-color);
+}
+
+.figure {
+    border-radius: 50%;
+}
+
+.img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }

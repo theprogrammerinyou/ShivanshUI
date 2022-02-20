@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert</title>
-    <link href="alert.css" rel="stylesheet" />
-    <link href="../../css/base.css" rel="stylesheet" />
+    <title>List</title>
+    <link rel="stylesheet" href="list.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
   </head>
-
   <body>
     <main>
       <nav>
@@ -54,48 +53,60 @@
       </nav>
     </main>
     <section class="main-section">
-      <h1>Alert</h1>
-      <p class="sm-margin-padding">
-        Alert's are messages which give some special message. They can be easily
-        understood by the color they have.
+      <h3>Lists</h3>
+      <p>
+        Lists can be used to represent anything. They can be used in
+        notification lists, they can be used to show some number of things on
+        screen and many more things.
       </p>
-      <p class="sm-margin-padding">
-        There are 4 different alerts in the component library.
-      </p>
-      <ol>
+      <p>In this component library, we have</p>
+      <ul>
         <li>
-          <span class="bold"> Info Alert </span> -
-          <span class="classname">.alert-primary</span> class should be used
+          Spaced List - Use classname <span class="classname">flex</span> to
+          align list spaced between each other.
         </li>
         <li>
-          <span class="bold">Error Alert</span> -
-          <span class="classname">.alert-error</span> class should be used
+          Stacked List - Use classname
+          <span class="classname">stacked-list</span> on ul to get stacked list
+          as well as use classname
+          <span class="classname">stacked-list-item</span> on li to get desired
+          notification stacks.
         </li>
-        <li>
-          <span class="bold">Success Alert</span> -
-          <span class="classname">.alert-success</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Warning Alert</span> -
-          <span class="classname">.alert-warning</span> class should be used
-        </li>
-      </ol>
-      <div class="flex-col container">
-        <div class="alert alert-primary">Info Alert</div>
-        <div class="alert alert-error">Error Alert</div>
-        <div class="alert alert-success">Success Alert</div>
-        <div class="alert alert-warning">Warning Alert</div>
+      </ul>
+      <div class="container flex-col basic-margin-padding">
+        <h3>Spaced List</h3>
+        <ul class="flex">
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ul>
       </div>
       <pre class="code-container">
-      <code>
-        &lt;div class="flex alert-container">
-          &lt;div class="alert alert-primary"&gt;Info Alert.&lt;/div&gt;
-          &lt;div class="alert alert-error"&gt;Error Alert.&lt;/div&gt;
-          &lt;div class="alert alert-success"&gt;Success Alert.&lt;/div&gt;
-          &lt;div class="alert alert-warning"&gt;Warning Alert.&lt;/div&gt;
-        &lt;/div&gt;
-      </code>
-    </pre>
+        <code>
+          &lt;ul class="flex">
+            &lt;li>List Item 1&lt;/li>
+            &lt;li>List Item 2&lt;/li>
+            &lt;li>List Item 3&lt;/li>
+          &lt;/ul>
+        </code>
+      </pre>
+      <div class="container flex-col basic-margin-padding">
+        <h3>Stacked List</h3>
+        <ul class="stacked-list">
+          <li class="stacked-list-item">List Item 1</li>
+          <li class="stacked-list-item">List Item 2</li>
+          <li class="stacked-list-item">List Item 3</li>
+        </ul>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;ul class="stacked-list">
+            &lt;li class="stacked-list-item">List Item 1&lt;/li>
+            &lt;li class="stacked-list-item">List Item 2&lt;/li>
+            &lt;li class="stacked-list-item">List Item 3&lt;/li>
+          &lt;/ul>
+        </code>
+      </pre>
     </section>
   </body>
 </html>

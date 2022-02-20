@@ -1,77 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="avatar.css" />
     <link rel="stylesheet" href="../../css/base.css" />
     <title>Avatar</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <h1>Avatar</h1>
-        <div class="avatar-container flex-row">
-            <h1>Standard Avatar</h1>
-            <img class="avatar"
-                src="https://images.unsplash.com/photo-1643633051030-a74836fb6655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                alt="image-1" />
-            <img class="avatar"
-                src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt="image-2" />
-            <img class="avatar"
-                src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                alt="image-3" />
+      <nav>
+        <div class="navbar">
+          <div id="left-nav">
+            <a href="../../index.html">
+              <img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/S_cursiva.gif/200px-S_cursiva.gif" width="100" height="100" alt="logo" />
+            </a>
+          </div>
+          <div id="right-nav">
+            <ul class="navbar">
+              <li>
+                <a href="../../index.html">
+                  <i id="fas fa-home"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li class="dropdown">
+                <button class="dropdown-btn">Components</button>
+                <div class="dropdown-components">
+                  <a href="/components/alert/alert.html">Alert</a>
+                  <a href="/components/avatar/avatar.html">Avatar</a>
+                  <a href="/components/badge/badge.html">Badge</a>
+                  <a href="/components/button/button.html">Button</a>
+                  <a href="/components/card/card.html">Card</a>
+                  <a href="/components/image/image.html">Image</a>
+                  <a href="/components/input/input.html">Input</a>
+                  <a href="/components/text-utilities/text-utilities.html">Text Utilities</a>
+                  <a href="/components/list/list.html">List</a>
+                  <a href="/components/navbar/navbar.html">Navbar</a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="avatar-container flex-row">
-            <h2>Size Avatar</h2>
-            <img class="avatar sm"
-                src="https://images.unsplash.com/photo-1643637200739-91b446b0e4e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt="image-1" />
-            <img class="avatar md"
-                src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt="image-2" />
-            <img class="avatar lg"
-                src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                alt="image-3" />
-        </div>
-        <div class="avatar-container flex-row">
-            <h2>Square Avatar</h2>
-            <img class="avatar square"
-                src="https://images.unsplash.com/photo-1643637200739-91b446b0e4e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt="image-1" />
-            <img class="avatar square"
-                src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt="image-2" />
-            <img class="avatar square"
-                src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                alt="image-3" />
-        </div>
-        <div class="avatar-container flex-row">
-            <h2>Avatar Status</h2>
-            <figure class="avatar square figure">
-                <img 
-                    class="img"
-                    src="https://images.unsplash.com/photo-1643637200739-91b446b0e4e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="image-1" />
-                <div class="avatar-status dnd"></div>
-            </figure>
-            <figure class="avatar square figure">
-                <img class="img"
-                    src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-                    alt="image-2" />
-                <div class="avatar-status offline"></div>
-            </figure>
-            <figure class="avatar square figure">
-                <img class="img"
-                    src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
-                    alt="image-3" />
-                <div class="avatar-status online"></div>
-            </figure>
-        </div>
+      </nav>
     </main>
-</body>
-
+    <section class="main-section">
+      <h1>Avatar</h1>
+      <p class="sm-margin-padding">Avatar is mostly useful when representing profile pictures. They can also be used when a user likes on social media handles. We can also use badges on avatar's to represent user status. </p>
+      <p class="sm-margin-padding">Avatar can also be presented in different ways. Some of them are</p>
+      <ol>
+        <li>Standard Avatar - Normal avatar with class name as <span class="classname">.avatar</span></li>
+        <li>Avatar with different sizes  - Avatars with 5 different sizes with classname as <span class="classname">.md,>.sm, .md, .lg, .xl, .xxl</span></li>
+        <li>Squared Avatar - Avatar's that are square in shape with class name as <span class="classname">.square</span></li>
+        <li>Avatar with badges - Avatar's representing status of user, with class name as <span class="classname">.dnd, .online, .offline</span></li>
+      </ol>
+      <div class="container flex-col">
+        <h2>Standard Avatar</h2>
+        <div class="flex">
+          <img
+            class="avatar"
+            src="https://images.unsplash.com/photo-1530505580493-3fa88046af67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="image-1"
+          />
+          <img
+            class="avatar"
+            src="https://images.unsplash.com/photo-1619377730102-11329e348a43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="image-2"
+          />
+          <img
+            class="avatar"
+            src="https://images.unsplash.com/photo-1644043861235-3c9443ed1ce5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzfHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="image-3"
+          />
+        </div>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;div class="flex">
+            &lt;img
+              class="avatar"
+              src="link goes here"
+              alt="image-1"
+            />
+            &lt;img
+              class="avatar"
+              src="link goes here"
+              alt="image-2"
+            />
+            &lt;img
+              class="avatar"
+              src="link goes here"
+              alt="image-3"
+            />
+          &lt;div>
+        </code>
+      </pre>
+      <div class="container flex-col">
+        <h2>Size Avatar</h2>
+        <div class="flex align-center">
+          <img
+            class="avatar sm"
+            src="https://images.unsplash.com/photo-1643637200739-91b446b0e4e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="image-1"
+          />
+          <img
+            class="avatar md"
+            src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="image-2"
+          />
+          <img
+            class="avatar lg"
+            src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="image-3"
+          />
+          <img
+            class="avatar xl"
+            src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="image-3"
+          />
+          <img
+            class="avatar xxl"
+            src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="image-3"
+          />
+        </div>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;div class="flex">
+            &lt;img
+              class="avatar sm"
+              src="link goes here"
+              alt="image-1"
+            />
+            &lt;img
+              class="avatar md"
+              src="link goes here"
+              alt="image-2"
+            />
+            &lt;img
+              class="avatar lg"
+              src="link goes here"
+              alt="image-3"
+            />
+          &lt;div>
+        </code>
+      </pre>
+      <div class="container flex-col">
+        <h2>Square Avatar</h2>
+        <div class="flex">
+          <img
+            class="avatar square"
+            src="https://images.unsplash.com/photo-1643637200739-91b446b0e4e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="image-1"
+          />
+          <img
+            class="avatar square"
+            src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="image-2"
+          />
+          <img
+            class="avatar square"
+            src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt="image-3"
+          />
+        </div>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;div class="flex">
+            &lt;img
+              class="avatar square"
+              src="link goes here"
+              alt="image-1"
+            />
+            &lt;img
+              class="avatar square"
+              src="link goes here"
+              alt="image-2"
+            />
+            &lt;img
+              class="avatar square"
+              src="link goes here"
+              alt="image-3"
+            />
+          &lt;div>
+        </code>
+      </pre>
+      <div class="container flex-col">
+        <h2>Avatar Status</h2>
+        <div class="flex">
+          <figure class="avatar square figure">
+            <img
+              class="img"
+              src="https://images.unsplash.com/photo-1643637200739-91b446b0e4e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="image-1"
+            />
+            <div class="avatar-status dnd"></div>
+          </figure>
+          <figure class="avatar square figure">
+            <img
+              class="img"
+              src="https://images.unsplash.com/photo-1643635584824-993e275ef1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt="image-2"
+            />
+            <div class="avatar-status offline"></div>
+          </figure>
+          <figure class="avatar square figure">
+            <img
+              class="img"
+              src="https://images.unsplash.com/photo-1643599630779-892b294f22f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              alt="image-3"
+            />
+            <div class="avatar-status online"></div>
+          </figure>
+        </div>
+      </div>
+      <pre class="code-container">
+        <code>
+          &lt;div class="flex">
+            &lt;figure class="avatar square figure">
+            &lt;img
+              class="img"
+              src=""
+              alt="image-1"
+            />
+            &lt;div class="avatar-status dnd"></div>
+          </figure>
+            &lt;figure class="avatar square figure">
+            &lt;img
+              class="img"
+              src=""
+              alt="image-1"
+            />
+            &lt;div class="avatar-status dnd"></div>
+          </figure>
+            &lt;figure class="avatar square figure">
+            &lt;img
+              class="img"
+              src=""
+              alt="image-1"
+            />
+            &lt;div class="avatar-status dnd"></div>
+          </figure>
+          &lt;div>
+        </code>
+      </pre>
+    </section>
+  </body>
 </html>

@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert</title>
-    <link href="alert.css" rel="stylesheet" />
-    <link href="../../css/base.css" rel="stylesheet" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
   </head>
-
   <body>
     <main>
       <nav>
@@ -54,48 +53,45 @@
       </nav>
     </main>
     <section class="main-section">
-      <h1>Alert</h1>
-      <p class="sm-margin-padding">
-        Alert's are messages which give some special message. They can be easily
-        understood by the color they have.
+      <h3>Navigation Bar</h3>
+      <p>
+        Navigation bar helps in moving easily through out a page. It has links
+        for different parts of web pages.
       </p>
-      <p class="sm-margin-padding">
-        There are 4 different alerts in the component library.
-      </p>
-      <ol>
-        <li>
-          <span class="bold"> Info Alert </span> -
-          <span class="classname">.alert-primary</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Error Alert</span> -
-          <span class="classname">.alert-error</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Success Alert</span> -
-          <span class="classname">.alert-success</span> class should be used
-        </li>
-        <li>
-          <span class="bold">Warning Alert</span> -
-          <span class="classname">.alert-warning</span> class should be used
-        </li>
-      </ol>
-      <div class="flex-col container">
-        <div class="alert alert-primary">Info Alert</div>
-        <div class="alert alert-error">Error Alert</div>
-        <div class="alert alert-success">Success Alert</div>
-        <div class="alert alert-warning">Warning Alert</div>
+      <div class="container basic-margin-padding flex-col">
+        <h3>Navigation Bar</h3>
+        <div class="navigationBar">
+          <div class="flex sm-margin-padding">
+            <img
+              src="/assets/bars-solid.svg"
+              alt="icon"
+              width="20"
+              height="20"
+            />
+            <p>Menu</p>
+          </div>
+          <div class="flex sm-margin-padding">
+            <p>Docs</p>
+            <p>Contribute</p>
+            <p>Profile</p>
+          </div>
+        </div>
       </div>
       <pre class="code-container">
-      <code>
-        &lt;div class="flex alert-container">
-          &lt;div class="alert alert-primary"&gt;Info Alert.&lt;/div&gt;
-          &lt;div class="alert alert-error"&gt;Error Alert.&lt;/div&gt;
-          &lt;div class="alert alert-success"&gt;Success Alert.&lt;/div&gt;
-          &lt;div class="alert alert-warning"&gt;Warning Alert.&lt;/div&gt;
-        &lt;/div&gt;
-      </code>
-    </pre>
+        <code>
+          &lt;div class="navigationBar">
+            &lt;div class="flex sm-margin-padding">
+              &lt;img src="icon link goes here" alt="icon" width="20" height="20">
+              &lt;p>Menu&lt;/p>
+            &lt;/div>
+            &lt;div class="flex sm-margin-padding">
+              &lt;p>Docs&lt;/p>
+              &lt;p>Contribute&lt;/p>
+              &lt;p>Profile&lt;/p>
+            &lt;/div>
+          &lt;/div>
+        </code>
+      </pre>
     </section>
   </body>
 </html>
