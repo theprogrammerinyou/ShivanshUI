@@ -27,8 +27,8 @@
     padding: 8%;
     border-radius: 50%;
     position: absolute;
-    bottom: 0em;
-    right: 0em;
+    bottom: 0;
+    right: 0;
 }
 
 .avatar-status.offline {

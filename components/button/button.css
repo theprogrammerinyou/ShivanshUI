@@ -3,7 +3,7 @@
 .button {
     border-radius: 40px;
     border: none;
-    color: black;
+    color: var(--black);
     padding: 1rem;
     margin: 1rem;
     cursor: pointer;
