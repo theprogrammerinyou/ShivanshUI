@@ -1,24 +1,29 @@
-h1, .xlg-para {
-    font-size: 48px;
-    line-height: 64px;
+h1,
+.xxl-para {
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
-h2, .xl-para{
-    font-size: 32px;
-    line-height: 40px;
+h2,
+.xl-para {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
-h3, .lg-para {
-    font-size: 24px;
-    line-height: 32px;
+h3,
+.lg-para {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-h4, .md-para {
-    font-size: 16px;
-    line-height: 24px;
+h4,
+.md-para {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
-h5, .sm-para {
-    font-size: 8px;
-    line-height: 16px;
+h5,
+.sm-para {
+  font-size: 8px;
+  line-height: 1rem;
 }
