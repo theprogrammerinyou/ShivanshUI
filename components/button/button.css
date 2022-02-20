@@ -1,14 +1,10 @@
 .button {
     border-radius: 10px;
     border: none;
-    color: #fff;
+    color: var(--black);
     padding: 1rem;
     margin: 1rem;
     cursor: pointer;
-}
-
-.button > a {
-    color: #fff;
 }
 
 .btn-primary {
