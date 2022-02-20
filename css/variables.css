@@ -8,8 +8,6 @@
     --lynx-white: #f7f7f7;
     --violet: #5348c7;
     --lynx-gray: #c5c5c5;
-    --success-color: #47F422;
-    --warn-color: #E0F52A;
     --btn-color: #8AC0ED;
     --error-color: rgb(233, 7, 7);
     --light-text: 300;
@@ -17,4 +15,6 @@
     --semibold-text: 600;
     --bold-text: 700;
     --black-text: 900;
+      --success-color: #32b643;
+  --warning-color: #d3e916;
 }
