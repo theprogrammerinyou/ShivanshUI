@@ -34,14 +34,12 @@
     visibility: hidden;
 }
 
-.badge::after {
-    content: "50% OFF";
+.badge {
     position: absolute;
-    top: 15px;
     right: 0;
-    padding: 0.5rem;
-    color: white;
-    background-color: red;
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--error-color);
 }
 
 .content {
@@ -64,18 +62,3 @@
 .horizontal-card{
     width: max-content;
 }
-
-/* to be added in future */
-/* .tooltip {
-    position: absolute;
-    top: -25px;
-    right: -25px;
-    background: rgb(29, 24, 24);
-    color: white;
-    border-radius: 10px;
-    padding: 0.5rem;
-}
-
-.hide {
-    display: none;
-} */
