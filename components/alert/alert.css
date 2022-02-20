@@ -11,7 +11,7 @@
 }
 
 .alert-error {
-  background-color: var(--primary-color);
+  background-color: var(--error-color);
 }
 
 .alert-success {
@@ -19,9 +19,9 @@
 }
 
 .alert-primary {
-    background-color: var(--violet);
+    background-color: var(--primary-color);
 }
 
 .alert-warning {
-    background-color: var(--warn-color);
+    background-color: var(--warning-color);
 }

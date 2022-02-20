@@ -1,8 +1,8 @@
 .heading-container {
-    background-color: #3B82F6;
+    background-color: var(--tertiary-color);
     border-radius: 10px;
     width: 100%;
-    color: #fff;
+    color: var(--black);
 }
 
 .gray-text {
